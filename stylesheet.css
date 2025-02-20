@@ -1,0 +1,85 @@
+
+body{
+    background-image:url(weather\ pics.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    background-image:url(istockphoto-162428248-612x612.jpg);
+    }
+#outer{
+    background-color: white;
+    
+    background-image:url(weather\ pics.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 500px;
+    height: 750px;
+    margin:auto;
+    border-radius: 50px;
+}
+#search{
+display: flex;
+justify-content:space-around;
+align-items:center;
+height: 50px;
+margin: 20px  50px 0px 20px;
+
+}
+i{
+    margin-top: 50px;
+}
+
+
+
+#search>input{
+    width:400px;
+    margin-right:20px;
+height: 50px;
+padding-left:20px;
+margin-top:50px;
+border-radius:50px;
+}
+
+#search>input::placeholder{
+    color:brown;
+    
+}
+#search>input:focus{
+    outline: none;
+}
+#main{
+    text-align: center;
+    color:aliceblue;
+}
+#main>img{
+    height:150px;
+    margin-top: 70px;
+    border-radius: 50px;
+}
+
+
+#main>h3{
+    font-size: 40px;
+    margin-top: 10px;
+}
+#main>h4{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.hello{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 40px;
+    margin-right:40px;
+}
+.col{
+    display: flex;
+    margin: 20px;
+    font-size:20px;
+}
+
+
+
+
+
+
