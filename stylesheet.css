@@ -50,6 +50,7 @@ border-radius:50px;
 #main{
     text-align: center;
     color:aliceblue;
+    display:none;
 }
 #main>img{
     height:150px;
